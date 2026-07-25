@@ -1,4 +1,6 @@
-# 🦆 Asistente de Marketing — Patito S.A.
+# Mesa de Ayuda IA con Agentes Especializados
+
+### **Área de Marketing — Patito S.A.**
 
 Este es un Sistema multiagente de IA para la gestión de marketing de una empresa ficticia (Patito S.A.), ha sido construido con **LangChain** y **Gemini**. El sistema esta ddiseñado para resolver consultas sobre identidad de marca, estrategia de campañas y cumplimiento normativo, asi mismo, audita imágenes contra el manual de marca, y registra nuevas campañas de forma validada — todo a través de un orquestador conversacional con memoria, para una mejor usabilidad se realaizó una interfaz web con Gradio.
 
@@ -6,7 +8,7 @@ Este es un Sistema multiagente de IA para la gestión de marketing de una empres
 
 ## Video
 
-> https://1drv.ms/v/c/8757d25229f39185/IQCkN-CQhzFBS6AXP0DZ-zH-AacIcuwTCjj7fFaidIWFFVo?e=4PKkad
+> https://1drv.ms/v/c/8757d25229f39185/IQCkN-CQhzFBS6AXP0DZ-zH-AacIcuwTCjj7fFaidIWFFVo?e=8aA5Gc
 
 ## Índice
 
@@ -20,6 +22,7 @@ Este es un Sistema multiagente de IA para la gestión de marketing de una empres
 - [Configuración de variables de entorno](#configuración-de-variables-de-entorno)
 - [Uso](#uso)
 - [Notas de seguridad](#notas-de-seguridad)
+- [Demostración de Funcionalidades con la GUI](#Demostración-de-Funcionalidades-con-la-GUI)
 
 ---
 
@@ -175,7 +178,7 @@ El sistema necesita una **API key de Google AI Studio** para usar Gemini.
    GOOGLE_API_KEY=tu_clave_real_aqui
 ```
 
-El archivo `.env` nunca se sube al repositorio (está protegido por `.gitignore`); solo `.env.example` queda versionado como referencia para quien clone el proyecto.
+> También puedes crear manualmente el archivo .env, copiar el contenido de .env.example dentro de él y pegar tu API key allí.
 
 ---
 
