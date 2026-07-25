@@ -6,7 +6,7 @@ Este es un Sistema multiagente de IA para la gestión de marketing de una empres
 
 ## Video
 
-> https://1drv.ms/v/c/8757d25229f39185/IQD1Q3Xwao4VRoxzZCOYqPnKAfcO-9ZL4yrq8l2etbfwTT8?e=Cv9i9f
+> https://1drv.ms/v/c/8757d25229f39185/IQCkN-CQhzFBS6AXP0DZ-zH-AacIcuwTCjj7fFaidIWFFVo?e=4PKkad
 
 ## Índice
 
@@ -194,3 +194,101 @@ El archivo `.env` nunca se sube al repositorio (está protegido por `.gitignore`
 - La interfaz Gradio añade una **segunda capa de defensa** mediante un filtro por palabras clave (`PALABRAS_PROHIBIDAS`) antes de que el mensaje llegue al orquestador. Es una mitigación adicional.
 - El registro de campañas **nunca asume** `consentimiento_marketing=True` por defecto cuando el canal es email: siempre requiere confirmación explícita del usuario.
 - Toda escritura en `registros/registro_campanas.txt` requiere un paso de **confirmación explícita** (`confirmado=True`) tras mostrar un resumen de los datos, y valida duplicados antes de guardar, ademas, si el canal es email, para poder registrarse la campaña se debe tener la confirmacion de los permisos de marketing del usuario.
+
+## Demostración de Funcionalidades con la GUI
+
+Este proyecto incluye un asistente IA multiagente avanzado. A continuación, puedes ver los flujos principales mediante capturas de pantalla organizadas por funcionalidad. Haz clic en cada sección para expandir los detalles.
+
+### 1. Flujo Completo de Conversación e Interfaz
+
+Esta sección muestra la vista general de la interfaz de usuario (construida en Gradio) y cómo el asistente guía al usuario a través del registro de una campaña, incluyendo la confirmación detallada de datos.
+
+<details>
+  <summary><b>Flujo de Conversación e Interfaz General</b> (Clic para expandir)</summary>
+  <br>
+
+  <p align="center">
+    <b>Vista General de la Interfaz y Conversación</b><br>
+    <img src="img_pruebas_gradio/agente_de_accion.jpeg" alt="Interfaz Completa Gradio" width="800">
+    <br><i>Esta es la vista completa de la aplicación, mostrando la tabla de registros y el chat.</i>
+  </p>
+
+  <p align="center">
+    <b>Consolidación de Datos de Campaña</b><br>
+    <img src="img_pruebas_gradio/agente_de_accion_2.jpeg" alt="Consolidación de Datos" width="700">
+    <br><i>El asistente consolida la información proporcionada y solicita confirmación antes de registrar.</i>
+  </p>
+
+</details>
+
+---
+
+### 2. Registro y Gestión de Campañas
+
+Muestra cómo el asistente registra exitosamente la información en la base de datos y cómo se visualiza el resultado final en la tabla de control.
+
+<details>
+  <summary><b>Ver Proceso de Registro en Base de Datos</b> (Clic para expandir)</summary>
+  <br>
+
+  <p align="center">
+    <b>Confirmación de Registro Exitoso (ID RMB-0004)</b><br>
+    <img src="img_pruebas_gradio/agente_de_accion_3.jpeg" alt="Confirmación de Registro" width="700">
+    <br><i>El asistente confirma que la campaña "Peter Lozada Shopping" ha sido guardada.</i>
+  </p>
+
+  <p align="center">
+    <b>Visualización de Registros en la Tabla</b><br>
+    <img src="img_pruebas_gradio/registros.jpeg" alt="Tabla de Registros" width="800">
+    <br><i>Aquí se puede apreciar el nuevo registro (RMB-0004) insertado correctamente en la tabla de control.</i>
+  </p>
+
+</details>
+
+---
+
+### 3. Agente Multimodal y Agentes de Conocimiento - Auditor de Marca y Cumplimiento
+
+Esta es una de las funcionalidades más potentes: el asistente actúa como auditor multimodal. Analiza consultas sobre normativas de la empresa (canales, consentimiento) y realiza una auditoría detallada de una pieza gráfica (logo "SPIDER"), rechazándola por incumplir los lineamientos de marca (secciones 1, 2, 3, 4 y 6).
+
+<details>
+  <summary><b>Ver Auditoría de Marca y Consultas de Cumplimiento</b> (Clic para expandir)</summary>
+  <br>
+
+  <p align="center">
+    <b>Consultas sobre Canales y Trato al Cliente (Normativa)</b><br>
+    <img src="img_pruebas_gradio/cumplimiento_1.jpeg" alt="Consultas de Cumplimiento" width="700">
+    <br><i>El asistente responde sobre canales disponibles y lineamientos de cumplimiento (Sección 2).</i>
+  </p>
+
+  <p align="center">
+    <b>Lineamientos detallados sobre Consentimiento y Datos</b><br>
+    <img src="img_pruebas_gradio/cumplimiento_2.jpeg" alt="Lineamientos detallados" width="700">
+    <br><i>Detalles sobre consentimiento (Sección 3) y uso de datos (Sección 4).</i>
+  </p>
+
+  <p align="center">
+    <b>Consulta sobre Paleta de Colores Oficial</b><br>
+    <img src="img_pruebas_gradio/manual_marca.jpeg" alt="Colores de Marca" width="700">
+    <br><i>El asistente detalla los colores primarios y secundarios de "Patito S.A.".</i>
+  </p>
+
+  <p align="center">
+    <b>Auditoría Multimodal: Análisis de Pieza Gráfica</b><br>
+    <img src="img_pruebas_gradio/multimodal_1.jpeg" alt="Análisis Multimodal de Pieza" width="800">
+    <br><i>El asistente analiza la imagen "SPIDER" adjuntada y comienza a detallar los incumplimientos.</i>
+  </p>
+
+  <p align="center">
+    <b>Detalle de Incumplimientos (Tipografía, Tono y Texto)</b><br>
+    <img src="img_pruebas_gradio/multimodal_2.jpeg" alt="Detalle de Incumplimientos" width="700">
+    <br><i>Se detallan las fallas en tipografía (Sección 4) y tono (Sección 1).</i>
+  </p>
+
+  <p align="center">
+    <b>Resultado Final: Pieza RECHAZADA y Fundamentación</b><br>
+    <img src="img_pruebas_gradio/multimodal_3.jpeg" alt="Resultado Final de Auditoría" width="700">
+    <br><i>El asistente concluye rechazando la pieza y listando las razones clave de cumplimiento (Secciones 2, 3, 4 y 6).</i>
+  </p>
+
+</details>
