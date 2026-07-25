@@ -1,0 +1,41 @@
+# Entornos y variables sensibles
+.env
+*.env
+!.env.example
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ChromaDB (bases de datos vectoriales generadas localmente)
+chroma/
+chroma_db/
+*.sqlite3
+*.sqlite3-journal
+
+
+# Logs y temporales
+*.log
+*.tmp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+#Gradio cache
+.gradio/

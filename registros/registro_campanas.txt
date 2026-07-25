@@ -1,0 +1,4 @@
+RMB-0001 | 2026-07-25 11:13:32 | Bryant Myers | Conversión | email | jovenes, fans de musica urbana | USD 2000.00 | 2026-07-09 | 2026-08-09 | True
+RMB-0002 | 2026-07-25 11:39:28 | redes LuisLaport | awareness | instagram | jovenes de 20 a 30 años | USD 5000.00 | 2026-07-10 | 2026-11-10 | False
+RMB-0003 | 2026-07-25 11:40:02 | Talleres Infocar | awareness | email | Jovenes de 20 a 30 años | USD 1100.00 | 2026-07-24 | 2026-08-24 | True
+RMB-0004 | 2026-07-25 11:40:45 | Peter Lozada Shopping | awareness | email | jovenes de 18 a 25 años | USD 2000.00 | 2026-07-25 | 2026-08-25 | True

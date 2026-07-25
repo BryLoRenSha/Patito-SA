@@ -1,0 +1,33 @@
+PATITO S.A.
+LINEAMIENTOS DE CUMPLIMIENTO PUBLICITARIO Y PROTECCIÓN DE DATOS EN CAMPAÑAS
+(Documento ficticio para fines de evaluación del semillero)
+Base de conocimiento del Agente de Cumplimiento Publicitario
+
+1. PUBLICIDAD RESPONSABLE
+La publicidad debe ser veraz y no engañosa. Las afirmaciones (claims) deben poder sustentarse.
+
+2. CLAIMS
+- Permitidos: beneficios reales y comprobables del producto.
+- Prohibidos: afirmaciones falsas, comparaciones engañosas, claims de salud no respaldados,
+  uso de "garantizado" o "el mejor" sin sustento, y precios o promociones que induzcan a error.
+
+3. CONSENTIMIENTO DE MARKETING (EMAIL Y MENSAJERÍA)
+- Solo se puede enviar comunicación comercial (email, SMS, WhatsApp) a personas que otorgaron
+  consentimiento explícito (opt-in) para recibir marketing.
+- NO está permitido enviar campañas de email a clientes que no dieron su consentimiento de
+  marketing, aunque sean clientes activos.
+- Toda comunicación debe incluir un mecanismo de baja (opt-out / "darse de baja") visible.
+- Las bajas deben procesarse de inmediato y respetarse.
+
+4. USO DE DATOS DE CLIENTES
+- Los datos solo se usan para la finalidad para la que fueron recolectados.
+- No se comparten datos con terceros sin base legal y sin consentimiento.
+- La segmentación debe respetar el consentimiento otorgado por cada contacto.
+
+5. INFLUENCERS Y CONTENIDO PAGADO
+Todo contenido pagado o con influencers debe identificarse claramente como publicidad
+(por ejemplo, #publicidad o "contenido pagado").
+
+6. ANTES DE LANZAR
+Toda campaña debe validar: veracidad de claims, base de consentimiento del público objetivo,
+inclusión de opción de baja y cumplimiento del Manual de Marca.

@@ -1,0 +1,37 @@
+PATITO S.A.
+GUÍA DE CAMPAÑAS, CANALES Y KPIs DE MARKETING
+(Documento ficticio para fines de evaluación del semillero)
+Base de conocimiento del Agente de Campañas y Performance
+
+1. TIPOS DE CAMPAÑA SEGÚN OBJETIVO
+- Awareness (reconocimiento de marca).
+- Generación de leads (captación de contactos).
+- Conversión / ventas.
+- Fidelización / retención.
+
+2. CANALES DISPONIBLES
+Redes sociales (Meta, Instagram, TikTok, LinkedIn), Google Ads (search y display),
+email marketing, sitio web/landing pages y marketing de contenidos.
+
+3. PROCESO DE UNA CAMPAÑA
+3.1 Brief y objetivo medible.  3.2 Definición de público y presupuesto.
+3.3 Producción de piezas (según Manual de Marca).  3.4 Lanzamiento.
+3.5 Monitoreo.  3.6 Reporte de cierre con KPIs.
+
+4. KPIs POR OBJETIVO
+4.1 Awareness: alcance, impresiones, frecuencia, CPM.
+4.2 Generación de leads (KPIs de cierre obligatorios):
+- Número de leads generados.
+- Costo por lead (CPL).
+- Tasa de conversión de visita a lead.
+- Tasa de conversión de lead a MQL (lead calificado por marketing).
+- CTR (tasa de clics).
+- Inversión total y CPL por canal.
+- ROI / ROAS de la campaña.
+4.3 Conversión/ventas: número de ventas, costo por adquisición (CPA), ticket promedio, ROAS.
+
+5. REPORTE DE CIERRE
+Todo cierre de campaña debe incluir: objetivo planteado vs. resultado, los KPIs del objetivo
+correspondiente, comparación contra la meta, aprendizajes y recomendaciones. Para campañas de
+generación de leads en redes sociales se reportan como mínimo: leads generados, CPL, tasa de
+conversión a lead y a MQL, CTR y ROAS.
